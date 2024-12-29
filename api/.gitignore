@@ -1,0 +1,63 @@
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos gerados pelo IntelliJ IDEA
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Ignorar arquivos gerados pelo Eclipse
+.project
+.classpath
+.settings/
+.target/
+
+# Build
+target/
+out/
+
+# Logs
+*.log
+logs/
+
+# Dependências
+.mvn/
+**/mvnw*
+!**/mvnw
+!**/mvnw.cmd
+
+# Arquivos de configuração locais e sensíveis
+application.properties
+application.yml
+application-local.properties
+application-local.yml
+
+# Configuração do banco de dados (em desenvolvimento local)
+*.db
+*.sqlite
+
+# Sistema operacional - Windows
+Thumbs.db
+desktop.ini
+
+# Sistema operacional - Linux/Unix
+*.swp
+.swp
+.cache/
+*.tmp
+*.bak
+
+# IDEs e ambiente local
+.vscode/
+.env
+*.env
+
+# Arquivos sensíveis do Spring
+secrets.txt
+.secret/
+
+# Configuração de container e CI/CD
+docker-compose.override.yml
+.env
